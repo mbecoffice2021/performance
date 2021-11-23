@@ -15,7 +15,14 @@ body {
     overflow-x: hidden;
     
 }
-
+.mbec
+{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+    font-weight: bold;
+    color: #917438;
+   
+}
 .goda
 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
