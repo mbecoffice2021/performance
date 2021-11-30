@@ -222,11 +222,11 @@ text-align: right; }
 
 .grid figure figcaption {
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 2em;
+    padding: 1em;
     color: #fff;
     backface-visibility: hidden;
 }
@@ -246,10 +246,13 @@ figure.effect-sadie figcaption::before {
 }
 
 figure.effect-sadie h2 {
-    font-size: 1.5rem;
-    padding: 1.2rem;
+    font-size: 2rem;
+    padding: 4.2rem;
+    top:25%;
+    color:black;
+    font-weight: bold;
     position: absolute;
-    bottom: 10%;
+    bottom: 90%;
     left: 0;
     width: 100%;
     opacity: 0;
@@ -268,7 +271,11 @@ figure.effect-sadie p {
 figure.effect-sadie p {
     position: absolute;
     bottom: 0;
+    font-size: 25px;
+    color:black;
+    top:25%;
     left: 0;
+    text-align: center;
     padding: 1.2rem;
     margin-bottom: 0;
     width: 100%;
@@ -912,6 +919,19 @@ iframe { max-width: 100%; }
     .tm-contact-middle,
     .tm-contact-right {
         padding: 35px 30px;
+    }
+    figure.effect-sadie h2 {
+        font-size: 1.5rem;
+        padding: 3.5rem;
+        
+    }
+    
+
+    
+    figure.effect-sadie p {
+        position: absolute;
+        bottom: 0;
+        font-size:15px;
     }
 }
 
